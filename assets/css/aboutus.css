@@ -1,0 +1,238 @@
+h1 {
+    font-size: 32px;
+    margin: 45px 200px 20px 190px;
+}
+
+hr {
+    margin: 0 180px;
+    border: .5px solid #9f7855;
+}
+
+.left1 {
+    margin: 30px 20px 30px 190px;
+    background-color: #FFFFFF;
+    width: 36%;
+    height: 330px;
+    float: left;
+    border-radius: 8px;
+}
+
+.left2 {
+    margin: 25px 20px 80px 190px;
+    background-color: #FFFFFF;
+    width: 36%;
+    height: 330px;
+    float: left;
+    border-radius: 8px;
+}
+
+.right1 {
+    margin: 30px 190px 30px 20px;
+    background-color: #FFFFFF;
+    width: 36%;
+    height: 330px;
+    float: right;
+    border-radius: 8px;
+}
+
+.right2 {
+    margin: 25px 190px 80px 20px;
+    background-color: #FFFFFF;
+    width: 36%;
+    height: 330px;
+    float: right;
+    border-radius: 8px;
+}
+
+.about {
+    margin: 20px 40px 20px 20px;
+}
+
+.about>img {
+    float: left;
+    margin: 5px 35px 5px 10px;
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+}
+
+.aboutus {
+    line-height: 60px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.aboutus>h2 {
+    font-size: 28px;
+}
+
+.aboutus>p {
+    font-size: 18px;
+}
+
+.aboutlink>a>img {
+    width: 9%;
+    opacity: 0.7;
+    padding: 10px 2px 0 1px;
+}
+
+.aboutlink>a>img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:800px) {
+    h1 {
+        font-size: 32px;
+        margin: 140px 15% 10px 15%;
+    }
+
+    hr {
+        margin: 0 10%;
+    }
+
+    .left1,
+    .left2,
+    .right1 {
+        margin: 30px 15% 15px;
+        width: 70%;
+        height: 280px;
+        float: left;
+    }
+
+    .right2 {
+        margin: 30px 15% 60px;
+        width: 70%;
+        height: 280px;
+        float: left;
+    }
+
+    .about>img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .aboutus {
+        line-height: 55px;
+        padding: 10px 0;
+    }
+
+    .aboutus>h2 {
+        font-size: 28px;
+    }
+
+    .aboutus>p {
+        font-size: 20px;
+    }
+
+    .aboutlink>a>img {
+        width: 8%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 30px;
+        margin: 120px 10% 10px 10%;
+    }
+
+    hr {
+        margin: 0 7%;
+    }
+
+    .left1,
+    .left2,
+    .right1 {
+        margin: 30px 10% 15px;
+        width: 80%;
+        height: 230px;
+        float: left;
+    }
+
+    .right2 {
+        margin: 30px 10% 60px;
+        width: 80%;
+        height: 230px;
+        float: left;
+    }
+
+    .about>img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .aboutus {
+        line-height: 40px;
+        padding: 10px 0;
+    }
+
+    .aboutus>h2 {
+        font-size: 24px;
+    }
+
+    .aboutus>p {
+        font-size: 16px;
+    }
+
+    .aboutlink>a>img {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:499px) {
+    h1 {
+        font-size: 28px;
+        margin: 120px 10% 10px 10%;
+    }
+
+    hr {
+        margin: 0 10%;
+        border: .5px solid #9f7855;
+    }
+
+    .left1,
+    .left2,
+    .right1 {
+        margin: 30px 10% 15px;
+        width: 80%;
+        height: 180px;
+        float: left;
+    }
+
+    .right2 {
+        margin: 30px 10% 60px;
+        width: 80%;
+        height: 180px;
+        float: left;
+    }
+
+    .about {
+        margin: 10px 0px 10px 10px;
+    }
+
+    .about>img {
+        margin: 5px 0px 5px 10px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .aboutus {
+        line-height: 34px;
+        padding: 10px 0;
+    }
+
+    .aboutus>h2 {
+        font-size: 20px;
+    }
+
+    .aboutus>p {
+        font-size: 16px;
+    }
+
+    .aboutlink>a>img {
+        width: 9%;
+        opacity: 0.7;
+        padding: 10px 2px 0 1px;
+    }
+
+}

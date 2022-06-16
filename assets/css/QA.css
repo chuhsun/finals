@@ -1,0 +1,231 @@
+.QAphoto {
+    width: 48%;
+    float: left;
+    padding: 110px 45px 100px 0;
+}
+
+.QAphoto>img {
+    height: 560px;
+    float: right;
+    width: auto;
+}
+
+hr {
+    float: left;
+    height: 630px;
+    width: 0.1px;
+    padding: none;
+    margin: 80px 0px;
+    border: 1px solid #9f7855;
+}
+
+.QA {
+    width: 47%;
+    float: right;
+    margin: 150px 4% 100px 0%;
+    padding: 0 130px 0 30px;
+}
+
+.QAall {
+    float: left;
+}
+
+.QAall>h2 {
+    margin-bottom: 20px;
+    float: left;
+    font-size: 32px;
+}
+
+.accordion {
+    background-color: #e0c295;
+    color: #000000;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    margin-top: 5px;
+}
+
+.active,
+.accordion:hover {
+    color: #FFFFFF;
+    background-color: #e0c295;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #FFFFFF;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    width: 100%;
+    line-height: 38px;
+    font-weight: 600;
+    text-indent: 16px;
+    padding: 0 18px;
+    background-color: #e8cfa9;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+@media screen and (max-width:800px) {
+    .QAphoto {
+        width: 48%;
+        float: left;
+        padding: 150px 30px 100px 0;
+    }
+
+    .QAphoto>img {
+        height: 100%;
+        float: right;
+        width: 90%;
+    }
+
+    hr {
+        margin: 55px 0px;
+        height: 520px;
+        border: 0.5px solid #9f7855;
+    }
+
+    .QA {
+        width: 44%;
+        margin: 74px 4% 100px 10px;
+        padding: 0;
+    }
+
+    .accordion {
+        padding: 16px;
+    }
+
+    .panel {
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .QAphoto {
+        position: absolute;
+        top: 180px;
+        left: 160px;
+        width: 29%;
+        clear: both;
+        margin: 0;
+        padding: 0;
+    }
+
+    .QAphoto>img {
+        height: 60px;
+        float: left;
+        width: auto;
+    }
+
+    hr {
+        position: absolute;
+        clear: both;
+        top: 250px;
+        border: 0.5px solid #9f7855;
+        height: 0px;
+        width: 460px;
+        padding: none;
+        margin: 0 4%;
+    }
+
+    .QA {
+        width: 90%;
+        clear: both;
+        margin: 40px 5% 100px 5%;
+        padding: 0;
+    }
+
+    .QAall {
+        float: left;
+    }
+
+    .QAall>h2 {
+        margin-bottom: 25px;
+        float: left;
+        font-size: 30px;
+    }
+
+    .accordion {
+        padding: 16px;
+        font-size: 15px;
+    }
+
+    .panel {
+        line-height: 30px;
+        text-indent: 0px;
+        padding: 0 10px 0 16px;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .QAphoto {
+        position: absolute;
+        top: 180px;
+        left: 130px;
+        width: 29%;
+        clear: both;
+        margin: 0;
+        padding: 0;
+    }
+
+    .QAphoto>img {
+        height: 50px;
+        float: left;
+        width: auto;
+    }
+
+    hr {
+        position: absolute;
+        clear: both;
+        top: 240px;
+        border: 0.5px solid #9f7855;
+        height: 0px;
+        width: 350px;
+        padding: none;
+        margin: 0 5%;
+    }
+
+    .QA {
+        width: 90%;
+        clear: both;
+        margin: 40px 4% 100px 4%;
+        padding: 0;
+    }
+
+    .QAall {
+        float: left;
+    }
+
+    .QAall>h2 {
+        margin-bottom: 25px;
+        float: left;
+        font-size: 24px;
+    }
+
+    .accordion {
+        padding: 16px;
+        font-size: 15px;
+    }
+
+    .panel {
+        line-height: 30px;
+        text-indent: 0px;
+        padding: 0 10px 0 16px;
+    }
+
+}

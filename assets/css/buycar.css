@@ -1,0 +1,228 @@
+.buycar>h2 {
+    font-size: 32px;
+    padding: 20px 0 15px 20px;
+    margin: 0;
+}
+
+.buycar {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 74px 20%;
+}
+
+.buycar>hr {
+    margin: 0 20px;
+    border: 0.5px solid #9f7855;
+}
+
+table {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 20px 30px 20px;
+}
+
+.price,
+.quantity,
+.total,
+.edit {
+    width: 14%;
+}
+
+.productname {
+    width: 25%;
+}
+
+.photo {
+    margin: 12px 0 8px 0;
+    padding: 0;
+    height: 100%;
+}
+
+.producttitle>td {
+    background-color: #e0c295;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.other {
+    height: 10Px;
+}
+
+.other>td {
+    border: 1px solid #d3b589;
+    height: 130px;
+}
+
+.quantity>input {
+    color: #000000;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    outline-style: none;
+    padding: 5px 0px 5px 10px;
+    border: 0;
+    text-align: center;
+    width: 110px;
+    margin: 0 12px;
+}
+
+
+.edit>input {
+    font-size: 18px;
+    cursor: pointer;
+    border: 0;
+    background-color: #FFFFFF;
+    font-weight: 550;
+    color: hsl(28, 30%, 48%, 0.7);
+}
+
+.edit>input:hover {
+    text-decoration: underline;
+    color: #9f7855;
+}
+
+.delete>td {
+    border: 0;
+}
+
+.buycar>.next {
+    height: 75px;
+    background-color: #FFFFFF;
+    padding: 20px 20px 0 0;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.next>input {
+    font-weight: bold;
+    color: #9f7856;
+    float: right;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    border: 1px solid #d3b589;
+}
+
+.next>input:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #9f7855;
+    border-color: #86613f;
+}
+
+@media screen and (max-width:800px) {
+    .buycar>h2 {
+        font-size: 28px;
+    }
+
+    .buycar {
+        margin: 140px 5%;
+    }
+
+    table {
+        font-size: 16px;
+    }
+
+    .photo {
+        margin: 12px 2px 8px 2px;
+        height: 50%;
+    }
+
+    .quantity>input {
+        font-size: 14px;
+        padding: 3px;
+        width: 50px;
+        margin: 0 5px;
+    }
+
+    .buycar>.next {
+        height: 75px;
+        padding: 20px 20px 0 0;
+        width: 100%;
+    }
+
+    .next>input {
+        font-size: 16px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .buycar>h2 {
+        font-size: 28px;
+    }
+
+    .buycar {
+        margin: 140px 5%;
+    }
+
+    table {
+        font-size: 16px;
+    }
+
+    .photo {
+        margin: 12px 2px 8px 2px;
+        height: 50%;
+    }
+
+    .quantity>input {
+        font-size: 14px;
+        padding: 3px;
+        width: 50px;
+        margin: 0 5px;
+    }
+
+    .buycar>.next {
+        height: 75px;
+        padding: 20px 20px 0 0;
+        width: 100%;
+    }
+
+    .next>input {
+        font-size: 16px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .buycar>h2 {
+        font-size: 30px;
+    }
+
+    .buycar {
+        margin: 140px 5%;
+    }
+
+    table {
+        font-size: 16px;
+    }
+
+    .photo {
+        margin: 12px 2px 8px 2px;
+        height: 50%;
+    }
+
+    .quantity>input {
+        font-size: 16px;
+        padding: 3px;
+        width: 30px;
+        margin: 0 5px;
+    }
+
+
+
+    .buycar>.next {
+        height: 75px;
+        padding: 20px 20px 0 0;
+        width: 100%;
+    }
+
+
+    .next>input {
+        font-size: 16px;
+        width: 100px;
+    }
+}

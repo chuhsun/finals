@@ -1,0 +1,378 @@
+.buycar,
+.receipt {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 74px 20%;
+}
+
+.buycar>h2,
+.receipt>h2 {
+    font-size: 32px;
+    padding: 20px 0 15px 20px;
+    margin: 0;
+}
+
+.buycar>hr,
+.receipt>hr {
+    margin: 0 20px;
+    border: 0.5px solid #9f7855;
+}
+
+table {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+.price,
+.quantity,
+.total {
+    width: 13%;
+}
+
+.productname {
+    width: 28%;
+}
+
+.photo {
+    margin: 12px 0 8px 0;
+    padding: 0;
+    height: 100%;
+}
+
+.producttitle>td {
+    background-color: #e0c295;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.other>td {
+    border: 1px solid #d3b589;
+    height: 130px;
+}
+
+.alltotal {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+}
+
+.alltotal>table {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.ordertotal {
+    width: 95%;
+    text-align: right;
+}
+
+.ordertotalnum>input {
+    border: 0;
+    background-color: #FFFFFF;
+    text-align: left;
+    width: 100px;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+.quantity>input {
+    border: 0;
+    color: #000000;
+    padding-left: 12px;
+    text-align: center;
+    font-size: 18px;
+    width: 50px;
+    background-color: #FFFFFF;
+}
+
+/*收件資訊*/
+.receipt>form {
+    font-size: 20px;
+}
+
+.left {
+    margin: 20px 0 10px 30px;
+    width: 43%;
+    height: 200px;
+    float: left;
+}
+
+.right {
+    margin: 20px 30px 10px 0;
+    width: 43%;
+    height: 200px;
+    float: right;
+}
+
+.left>input,
+.right>input {
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1.6px solid #9f7855;
+    width: 100%;
+    text-align: center;
+    padding: 6px 0;
+    margin: 10px 0;
+    outline-style: none;
+}
+
+select {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1.6px solid #9f7855;
+    margin: 10px 0;
+    padding: 6px 0;
+    width: 100%;
+    outline-style: none;
+    cursor: pointer;
+}
+
+#transport:invalid,
+input:invalid {
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+textarea {
+    font-size: 20px;
+    width: 100%;
+    padding: 6px;
+    margin: 10px 0;
+    resize: none;
+    border: 1.6px solid #9f7855;
+    border-radius: 5px;
+    outline-style: none;
+}
+
+.left>input:hover,
+.right>input:hover,
+select:hover,
+textarea:hover {
+    background-color: hsl(36, 58%, 79%, 0.7);
+}
+
+.checkout {
+    clear: both;
+    height: 50px;
+    padding: 95px 30px 60px 0;
+}
+
+.checkout>input {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 30px;
+    background-color: #FFFFFF;
+    float: right;
+    border: 2px solid #9f7855;
+    border-radius: 5px;
+    outline-style: none;
+}
+
+.checkout>input:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #9f7855;
+    border: 2px solid #86613f;
+}
+
+@media screen and (max-width:800px) {
+    .buycar {
+        margin: 140px 5% 74px;
+    }
+
+    .receipt {
+        margin: 74px 5%;
+    }
+
+    .buycar>h2,
+    .receipt>h2 {
+        font-size: 30px;
+    }
+
+    .productname {
+        width: 30%;
+    }
+
+    .photo {
+        height: 80%;
+    }
+
+    table,
+    .alltotal,
+    .ordertotalnum>input {
+        font-size: 16px;
+    }
+
+    .quantity>input {
+        padding-left: 0px;
+        font-size: 16px;
+        width: 50px;
+    }
+
+    /*收件資訊*/
+    .receipt>form {
+        font-size: 18px;
+    }
+
+    .left,
+    .right {
+        margin: 20px 10% 10px 10%;
+        width: 80%;
+        height: 200px;
+        clear: both;
+    }
+
+    .left>input,
+    .right>input,
+    select,
+    textarea {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .checkout {
+        padding: 75px 10% 65px 0;
+    }
+
+    .checkout>input {
+        font-size: 18px;
+        padding: 5px 20px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .buycar {
+        margin: 140px 5% 74px;
+    }
+
+    .receipt {
+        margin: 74px 5%;
+    }
+
+    .buycar>h2,
+    .receipt>h2 {
+        font-size: 30px;
+    }
+
+    .productname {
+        width: 30%;
+    }
+
+    .photo {
+        height: 80%;
+    }
+
+    table,
+    .alltotal,
+    .ordertotalnum>input {
+        font-size: 16px;
+    }
+
+    .quantity>input {
+        padding-left: 0px;
+        font-size: 16px;
+        width: 50px;
+    }
+
+    /*收件資訊*/
+    .receipt>form {
+        font-size: 18px;
+    }
+
+    .left,
+    .right {
+        margin: 20px 10% 10px 10%;
+        width: 80%;
+        height: 200px;
+        clear: both;
+    }
+
+    .left>input,
+    .right>input,
+    select,
+    textarea {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .checkout {
+        padding: 75px 10% 65px 0;
+    }
+
+    .checkout>input {
+        font-size: 18px;
+        padding: 5px 20px;
+    }
+
+}
+
+@media screen and (max-width:499px) {
+    .buycar {
+        margin: 140px 5% 74px;
+    }
+
+    .receipt {
+        margin: 74px 5%;
+    }
+
+    .buycar>h2,
+    .receipt>h2 {
+        font-size: 28px;
+    }
+
+    .productname {
+        width: 30%;
+    }
+
+    .photo {
+        height: 60%;
+    }
+
+    table,
+    .alltotal,
+    .ordertotalnum>input {
+        font-size: 16px;
+    }
+
+    .quantity>input {
+        padding-left: 0px;
+        font-size: 16px;
+        width: 30px;
+    }
+
+    /*收件資訊*/
+    .receipt>form {
+        font-size: 18px;
+    }
+
+    .left,
+    .right {
+        margin: 20px 10% 10px 10%;
+        width: 80%;
+        height: 200px;
+        clear: both;
+    }
+
+    .left>input,
+    .right>input,
+    select,
+    textarea {
+        font-size: 18px;
+        width: 270px;
+    }
+
+    .checkout {
+        padding: 65px 10% 65px 0;
+    }
+
+    .checkout>input {
+        font-size: 18px;
+        padding: 5px 20px;
+    }
+}

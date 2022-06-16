@@ -1,0 +1,194 @@
+.signin {
+    text-align: right;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 74px 25%;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.signin>h2 {
+    text-align: center;
+    padding-top: 29.88px;
+    font-size: 36px;
+}
+
+.signin>hr {
+    width: 95%;
+    border: 0.5px solid #9f7855;
+}
+
+.signin>form {
+    margin-top: 60px;
+}
+
+.signin_form_text {
+    font-size: 24px;
+    padding-bottom: 45px;
+    font-weight: 550;
+}
+
+
+.signin_form_text>input {
+    background-color: #FFFFFF;
+    outline-style: none;
+    font-size: 22px;
+    border: 2px solid #9f7855;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px 10px 7px 10px;
+    width: 40%;
+    float: right;
+    margin-right: 20%;
+}
+
+.signin_form_text>input:hover {
+    background-color: hsl(36, 58%, 79%, 0.7);
+}
+
+.signin_form_text_register {
+    width: 100%;
+}
+
+.signin_form_text_register>input {
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    padding: 6px 30px;
+    margin:0 42.5%;
+    border: 2px solid #9f7855;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.signin_form_text_register>input:hover {
+    color: #FFFFFF;
+    background-color: #9f7855;
+    border-color: #86613f;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    .signin {
+        padding-bottom: 5px;
+        text-align: left;
+        margin: 140px 15%;
+    }
+
+    .signin>h2 {
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
+    .signin>hr {
+        margin: 0 5%;
+        width: 90%;
+    }
+
+    .signin>form {
+        margin: 30px;
+    }
+
+    .signin_form_text {
+        font-size: 20px;
+        padding-bottom: 45px;
+        font-weight: 550;
+        margin-bottom: 30px;
+    }
+
+    .signin_form_text>input {
+        font-size: 20px;
+        padding: 5px 10px;
+        width: 100%;
+        clear: both;
+        margin-top: 5px;
+        margin-right: 0;
+    }
+
+    .signin_form_text_register>input {
+        margin: 0 37.5%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .signin {
+        padding-bottom: 5px;
+        text-align: left;
+        margin: 140px 10%;
+    }
+
+    .signin>h2 {
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
+    .signin>hr {
+        margin: 0 5%;
+        width: 90%;
+    }
+
+    .signin>form {
+        margin: 30px;
+    }
+
+    .signin_form_text {
+        font-size: 20px;
+        padding-bottom: 45px;
+        font-weight: 550;
+        margin-bottom: 30px;
+    }
+
+    .signin_form_text>input {
+        font-size: 20px;
+        padding: 5px 10px;
+        width: 100%;
+        clear: both;
+        margin-top: 5px;
+        margin-right: 0;
+    }
+    .signin_form_text_register>input {
+        margin: 0 35%;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .signin {
+        padding-bottom: 5px;
+        text-align: left;
+        margin: 140px 5%;
+    }
+
+    .signin>h2 {
+        padding: 20px 0;
+        font-size: 28px;
+    }
+
+    .signin>hr {
+        margin: 0 5%;
+        width: 90%;
+    }
+
+    .signin>form {
+        margin: 30px 20px;
+    }
+
+    .signin_form_text {
+        font-size: 20px;
+        padding-bottom: 45px;
+        font-weight: 550;
+        margin-bottom: 30px;
+    }
+
+    .signin_form_text>input {
+        font-size: 20px;
+        padding: 5px 10px;
+        width: 100%;
+        clear: both;
+        margin-top: 5px;
+        margin-right: 0;
+    }
+
+    .signin_form_text_register>input {
+        margin: 0 32.5%;
+    }
+}

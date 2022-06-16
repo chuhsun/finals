@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL PASS SEALING｜購物車</title>
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/confirm_order.css">
+    <script src="../assets/js/confirm_order.js"></script>
+</head>
+
+<body>
+    <div class="body">
+        <a href="" id="top"><b>&#8593;</b></a>
+        <header class="mean">
+            <div class="title_logo">
+                <a href="../index.html"><img src="../assets/imsges/logo.png"></a>
+            </div>
+            <div class="meannav">
+                <div class="meannav_a">
+                    <a class="meannav_a_first" href="about.html">關於<div>ALL PASS<br>SEALING</div></a>
+                    <div class="meannav_a_product_list">
+                        <button class="product_list">產品</button>
+                        <div class="list">
+                            <a href="product_all.html">所有產品</a><br>
+                            <a href="product_all_sealing.html">封蠟火漆章</a><br>
+                            <a href="product_all_wax.html">蠟粒 & 工具</a>
+                        </div>
+                    </div>
+                    <a href="QA.html">常見問題</a>
+                    <a href="member.html">會員中心</a>
+                    <a class="meannav_a_last" href="aboutus.html">關於我們</a>
+                </div>
+                <form class="search" method="post">
+                    <div class="search_img"><img src="../assets/imsges/search.png"></div>
+                    <div class="search_text">
+                        <input type="search">
+                    </div>
+                    <div class="search_button">
+                        <input type="submit" value="搜尋">
+                    </div>
+                </form>
+            </div>
+            <div class="title_sign">
+                <a href="shoppingcart.html" class="buycaricon"><img src="../assets/imsges/shopping.png"></a>
+                <a href="login.html" class="loginicon"><img src="../assets/imsges/login.png"></a>
+            </div>
+        </header>
+        <main>
+            <section class="buycar">
+                <h2>購物明細</h2>
+                <hr>
+                <table>
+                    <tr class="producttitle">
+                        <td class="photo"></td>
+                        <td class="productname">商品名稱</td>
+                        <td class="price">單價</td>
+                        <td class="quantity">數量</td>
+                        <td class="total">小計</td>
+                    </tr>
+                    <tr class="other">
+                        <td class="photo"><img class="photo" src="../assets/imsges/produce_bestwishes.png"></td>
+                        <td class="productname">火漆章－祝福語<br>Best wishes</td>
+                        <td class="price">250</td>
+                        <td class="quantity">1</td>
+                        <td class="total">250</td>
+                    </tr>
+                </table>
+                <hr>
+                <div class="alltotal">
+                    <table>
+                        <tr class="alltotal_tr">
+                            <td class="ordertotal">訂單總額：NT$
+                            <td class="ordertotalnum">250</td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section class="receipt">
+                <h2>收件資訊</h2>
+                <hr>
+                <form>
+                    <div class="left">
+                        收件者<br><input type="text" id="recipient" placeholder="請填寫收件者姓名" required="required"><br>
+                        聯絡電話<br><input type="tel" id="phone" placeholder="請填寫收件者電話" required="required"><br>
+                        Email<br><input type="email" id="email" placeholder="請填寫Email" required="required"><br>
+                    </div>
+                    <div class="right">配送方式<br><select size="1" id="transport" required="required">
+                            <option value="">請選擇配送方式</option>
+                            <option>7-11貨到付款</option>
+                            <option>全家貨到付款</option>
+                        </select><br>
+                        <snan>取貨門市</snan><input type="text" id="store" placeholder="請填超商門市地址" required="required">
+                        備註<br><textarea rows="2" wrap="hard"></textarea><br>
+                    </div>
+                    <div class="checkout">
+                        <input type="submit" value="結　帳" onclick="buy();location.href='../index.html'">
+                    </div>
+                </form>
+            </section>
+            <script src="../assets/js/common.js"></script>
+        </main>
+        <footer>
+            <p>@2022&nbsp;&nbsp;筑熏&秋草&芸瑄&羽鉉&nbsp;&nbsp;多媒體程式設計－期末專案</p>
+        </footer>
+    </div>
+</body>
+
+</html>
